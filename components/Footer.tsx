@@ -1,27 +1,32 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
-const Footer = () => {
+interface FooterProps {
+  onToggleTheme: () => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ onToggleTheme }) => {
   return (
-    <footer className="bg-blue-900 text-white py-4">
+    <footer className=" py-4">
       <div className="container mx-auto text-center flex flex-col md:flex-row justify-between items-center">
         <div className="flex justify-center space-x-4">
           <a
-            href="https://github.com/dev1980"
+            href="https://github.com/RyanVanZyl"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub size={24} />
           </a>
           <a
-            href="https://twitter.com/MahatoBrham"
+            href="null"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaTwitter size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/dev1980/"
+            href="https://www.linkedin.com/in/ryan-van-zyl-40574922b/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,4 +44,21 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+// Main Component
+const YourComponent: React.FC = () => {
+  const [theme, setTheme] = useState('light');
+
+  const handleToggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+    
+  };
+
+  return (
+    <div className={`bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-white transition-all`}>
+      
+      <Footer onToggleTheme={handleToggleTheme} />
+    </div>
+  );
+};
+
+export default YourComponent;

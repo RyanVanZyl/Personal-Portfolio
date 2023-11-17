@@ -1,3 +1,13 @@
+# Personal Portfolio
+
+This my portfolio Containing my exprience that I have picked up on my Web development Journey.
+As well as some infomation about my self that will give you a bit of insight into my personality, and Strenths.
+
+Things like my contact info can be found on the portfolio page as well as my links that will take you to my social media platform.
+
+Thank you!
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

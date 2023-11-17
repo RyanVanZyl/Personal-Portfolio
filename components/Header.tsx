@@ -9,7 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const links = [
   { id: 1, href: '/', label: 'Home' },
   { id: 2, href: '/about', label: 'About' },
-  { id: 3,href: '/contact', label: 'Contact'},
+  { id: 3, href: '/contact', label: 'Contact'},
 ];
 const Header = () => {
   const { theme, setTheme } = useTheme();
@@ -59,8 +59,7 @@ const Header = () => {
             size="icon"
             aria-label="Toggle Theme"
             className="mr-6"
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          >
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
             <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
             <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             <span className="sr-only">Toggle Theme</span>

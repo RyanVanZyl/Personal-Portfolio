@@ -14,19 +14,19 @@ const projects = [
     link: 'https://thankfulthoughts.io/',
   },
   {
-    name: 'PlatoIO',
-    description: 'PlatoIO is a to do list app that built using the PERN stack.',
-    image: '/platoio.png',
-    github: 'https://github.com/hqasmei/platoio',
-    link: 'https://platoio.com/register',
+    name: 'Tribute Page',
+    description: 'This is a simple Tribute page using HTML & CSS.',
+    image: '/Akira.PNG',
+    github: 'https://github.com/RyanVanZyl/tribute-page',
+    link: 'https://enchanting-croquembouche-f25d18.netlify.app/',
   },
   {
-    name: 'Newsweek.com Clone',
+    name: 'MyTunes Webpage',
     description:
-      'This project is a clone of news site Newsweek.com using the Bootstrap framework.',
-    image: '/newsweek.png',
-    github: 'https://github.com/dev1980/Newsweek-Using-Bootstrap',
-    link: 'https://dev1980.github.io/Newsweek-Using-Bootstrap/',
+      'This project is a simple showcase of the use of HTML & CSS.',
+    image: '/MyTunes.PNG',
+    github: 'https://github.com/RyanVanZyl',
+    link: 'https://incandescent-klepon-503197.netlify.app/',
   },
 ];
 

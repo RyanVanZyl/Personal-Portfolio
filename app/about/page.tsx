@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Container from '@/components/ui/container';
+
 const skills = [
   { skill: 'HTML' },
   { skill: 'CSS' },
@@ -12,12 +13,9 @@ const skills = [
   { skill: 'Redux' },
   { skill: 'Next.js' },
   { skill: 'Tailwind CSS' },
-  { skill: 'Radix UI' },
-  { skill: 'Shadcn' },
   { skill: 'Git' },
   { skill: 'GitHub' },
   { skill: 'Mongodb' },
-  { skill: 'Mysql' },
   { skill: 'Prisma client' },
 ];
 const About = () => {
@@ -31,11 +29,11 @@ const About = () => {
               Full-Stack Web Developer
             </h3>
             <p>
-              I am a skilled Full-Stack web developer with over three years of
-              experience in web development, Mentoring and as Teacher. My
+              I am a Well thought Full-Stack web developer student with a years of
+              experience in web development. My
               expertise includes JavaScript, ReactJs, NextJs, Typescript,
-              NodeJS, Express, MongoDB,Tailwind-css, Radix-UI, Shadcn. I
-              specialize in providing high-quality services in frontend &
+              NodeJS, Express, MongoDB,Tailwind-css.
+              I aim to provide high-quality services in frontend &
               backend development, Mern-stack, Nextjs Projects. React js & Next
               js applications, landing pages, Company Website. I pride myself on
               writing SEO-friendly and clean code to ensure the best user
@@ -55,38 +53,38 @@ const About = () => {
 
             <h3 className="text-xl font-semibold my-2">Education</h3>
             <p className="my-2">
-              I graduated from Amity University for Distance Learning, India in
-              2016 with a BS in Information Technology and have been working in
-              the field ever since.
+              I Matriculated from Noordgesig Secondary, South Africa in
+              2019 with a Bechalors Pass.
+            </p>
+
+            <p className=' pb-6'>
+              In the Year 2021 I completed a 12 month Course in Information Technology & CyberSecurity, Optaining Certifications
+              in Comptia A+ and Comptia Security+, I have been following down the Technology career path ever since.
             </p>
 
             <p>
-              I completed My Full-Stack Web Developmenet course from Microverse
-              - Remote Learning School from California, USA in 2020.
+              I completed My Full-Stack Web Developmenet course from Velisa Africa
+              - Remote Learning School from Bryanston, SA in 2023.
             </p>
 
             <br />
             <h3 className="text-xl font-semibold my-2">Experience</h3>
             <h4 className="font-semibold">
-              Full-Stack Teacher/Mentor @Velisa Africa
+              Full-Stack Student @Velisa Africa
             </h4>
             <p className="my-2">
-              Working as Full-Stack Teacher for last 2 years. Technology i cover
-              HTML, CSS, Javascript, React, Redux, Nodejs, Express, Mongodb,
+              Technologies I cover
+              HTML, CSS, Javascript, React, Nodejs, Mongodb,
               MERN Stack, Nextjs, Tailwind css.
             </p>
 
             <h4 className="font-semibold">Mentor @ Microverse</h4>
             <p className="my-2">
               Invested 1500+ hours working on real projects with awesome coding
-              partners from around the world. Learned fundamentals of full-stack
-              development including Git, HTML/CSS, SQL, Ruby, Rails, JavaScript,
-              React, and Redux. Worked remotely doing pair programming with
-              partners around the world for 40 hours every week. Mentored junior
-              web developers, providing technical support through code reviews.
-              Proposed improvements to code organization to improve code quality
-              and overall performance. Provided advice and tips on how to
-              maintain motivation to maintain longevity in the program.
+              Colleagus and a very well respected Lecturer. Learned fundamentals of full-stack
+              development including Git, HTML/CSS, JavaScript,
+              React, and Redux. Worked remotely doing solo programming 
+              for 6 hours every day.
             </p>
           </section>
           <section className="md:w-1/2 ">
